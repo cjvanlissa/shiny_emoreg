@@ -1,0 +1,87 @@
+neuroticism,Neuroticism (big 5),,Individual
+BIS,BIS,,Individual
+balancedrelated,Balanced Relatedness,,Microsystem
+extraversion,Extraversion (big 5),,Individual
+externalizing,Externalizing_CBCL,,Individual
+agreeableness,Agreeableness (big 5),,Individual
+leeftijd_moeder_11,Age (m),,Microsystem
+conflict_parents,Conflict interparental,,Microsystem
+IRI_ped_aa,Personal distress (IRI),,Individual
+CRSI_en_ab,Conflict engagement (b),,Microsystem
+selfconc,Self-Concept Clarity,,Individual
+CRSI_ps_av,Conflict resolution (f),,Microsystem
+CRSI_en_am,Conflict engagement (m),,Microsystem
+conflictfrequency,Conflict frequency (mf),,Microsystem
+anxiety,Anxiety,,Individual
+peermanag,Control friendships (mf),,Microsystem
+depression,Depression,,Individual
+CRSI_wi_ab,Conflict withdrawal (b),,Microsystem
+CRSI_wi_am,Conflict withdrawal (m),,Microsystem
+CRSI_en_av,Conflict engagement (f),,Microsystem
+dailyhassles,Parenting stress,,Microsystem
+leeftijd_vader_11,Age (f),,Microsystem
+CRSI_ps_am,Conflict resolution (m),,Microsystem
+IRI_fan_aa,Fantasy (IRI),,Individual
+intrusiveness,Parenting intrusive,,Microsystem
+leeftijd_target_11,Age,,Individual
+conpsy,Psychological control,,Microsystem
+conflictemo,Conflict emotions (mf),,Microsystem
+DMD_guilt,Daily guilt,,Individual
+externalizing_psych,Externalizing_YSR,,Individual
+geslacht,Sex,,Individual
+tolerance,Tolerance (mf),,Microsystem
+supportivecriticism,Supportive criticism (mf),,Microsystem
+negativeaffect_father,Conflict frequency (f),,Microsystem
+openness,Openness (big 5),,Individual
+IRI_pet_aa,Perspective taking (IRI),,Individual
+drugs,Drug use,,Individual
+DMD_tired,Daily tiredness,,Individual
+power_father,Power (f),,Microsystem
+DMD_angry,Daily anger,,Individual
+CRSI_co_av,Conflict compliance (f),,Microsystem
+pubert,Pubertal development,,Individual
+emotionalresponse,Emotion regulation (mf),,Microsystem
+IRI_emp_aa,Empathic concern (IRI),,Individual
+conscientious,Conscientiousness (big 5),,Individual
+CRSI_wi_av,Conflict withdrawal (f),,Individual
+negativeaffect_friend,Conflict frequency (b),,Individual
+negativeaffect_mother,Conflict frequency (m),,Individual
+annoyed,Parent annoyed,,Microsystem
+DMD_tense,Daily tenseness,,Individual
+vicrelat,Victim relational,,Mesosystem
+CRSI_co_am,Conflict compliance (m),,Individual
+parknow,Parental knowledge,,Microsystem
+support_mother,Support (m),,Microsystem
+support_father,Support (f),,Microsystem
+DMD_anxious,Daily anxiety,,Individual
+d_par_age,Age dif. (mf),,Microsystem
+CRSI_ps_ab,Conflict resolution (b),,Individual
+delinquency,Delinquency,,Mesosystem
+perprelat,Bully relational,,Mesosystem
+cigarettes,Cigarettes,,Individual
+victim,Victim delinquency,,Mesosystem
+par_consist,Consistency (m),,Microsystem
+power_friend,Power (b),,Microsystem
+DMD_sad,Daily sadness,,Individual
+school,School performance,,Mesosystem
+DMD_happy,Daily happiness,,Individual
+support_friend,Support (b),,Microsystem
+power_mother,Power (m),,Microsystem
+conbehpar,Control (mf),,Microsystem
+sollicitation,Sollicitation (mf),,Microsystem
+disclosure,Disclosure (mf),,Microsystem
+BAS,BAS,,Individual
+leeftijd_sibling_11,Age (s),,Microsystem
+d_sib_age,Age dif. (s),,Microsystem
+prosoc,Prosociality,,Individual
+CRSI_co_ab,Conflict compliance (b),,Individual
+alcohol,Alcohol,,Individual
+peer_contact,Peer contact freq.,,Mesosystem
+sesgez_low,SES family,,Mesosystem
+bg11aa04,Which religion,,Macrosystem
+reli,Religious,,Macrosystem
+vicphys,Victim physical,,Mesosystem
+perpphys,Bully physical,,Mesosystem
+peer_delinq,Delinquent peers,,Mesosystem
+brpmoe_lmh,SES (m),,Mesosystem
+brpvad_lmh,SES (f),,Mesosystem

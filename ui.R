@@ -52,11 +52,12 @@ shinyUI(
       tabsetPanel(
         id = "navbar",
         tabPanel(
-          "Assessment",
+          "Input",
+          HTML("<h1>Instructions:</h1>Adjust the values of the predictors below to customize predictions for an individual adolescent. Predictors are ranked by importance, so adjusting the top predictors will have the most impact. All predictors are set to the median value in the validation sample, so any unchanged slider represents the most common value. Move to the 'Assessment' panel when done.<br><br><br>"),
           uiOutput("sliders")
         ),
         tabPanel(
-          "Resultaat",
+          "Assessment",
           #uiOutput("dv_select"), # This goes hand in hand with renderUI
           
           #selectInput(
@@ -65,36 +66,35 @@ shinyUI(
           #  choices = c("Random-effects", "Fixed-effects", "Unweighted"),
           #  selected = "Random-effects"
           #),
-          htmlOutput("diagram_header"),
-          #plotlyOutput("diagram", width = "600px", height = "450px"),
+          HTML("<h1>Risk of emotion dysregulation</h1><br>The Figure below shows the developmental trajectories of emotion dysregulation for two groups of adolescents: those at relatively low (green) or high (red) risk for emotion dysregulation. Press 'Update plot' to plot a blue line for the assessed adolescent's predicted trajectory. The transparent blue ribbon indicates the 95% prediction interval for this adolescent. The adolescent may be at elevated risk of emotion dysregulation if the blue line approaches the red line.<br>"),
           htmlOutput("report"),
-          HTML("<br><br><br>"),
+          HTML("<br>"),
           #htmlOutput("imp_header"),
           htmlOutput("plot_header"),
+          actionButton("update", "Update plot", width = "150px"),
           plotOutput("classplot"),
-          HTML("<br><br><br>"),
-          actionButton("update", "Update plot", width = "150px")
+          HTML("<br><br><br>")
           
-        ),
-        tabPanel(
-          "Upload",
-          h3("Choose data source"),
-          h4("Upload data (CSV file):"),
-          p(
-            "Upload a .csv spreadsheet with the columns 'Label', 'Estimate', 'SE', and 'Sample'. You can export a .csv file (comma separated values) from Excel, SPSS, etc."
-          ),
-          uiOutput("file_input"), 
-          actionButton("load", "Load and analyze", width = "150px"), 
-          downloadButton("SEMSSMA_template.csv", "CSV template", width = "150px")
-          # 
-          # # In ui.R:
-          # downloadLink('downloadData', 'Download')
-          ## ---------------------------------------------
-          
-          
-          
-          
-        )
+        )#,
+        # tabPanel(
+        #   "Upload",
+        #   h3("Choose data source"),
+        #   h4("Upload data (CSV file):"),
+        #   p(
+        #     "Upload a .csv spreadsheet with the columns 'Label', 'Estimate', 'SE', and 'Sample'. You can export a .csv file (comma separated values) from Excel, SPSS, etc."
+        #   ),
+        #   uiOutput("file_input"), 
+        #   actionButton("load", "Load and analyze", width = "150px"), 
+        #   downloadButton("SEMSSMA_template.csv", "CSV template", width = "150px")
+        #   # 
+        #   # # In ui.R:
+        #   # downloadLink('downloadData', 'Download')
+        #   ## ---------------------------------------------
+        #   
+        #   
+        #   
+        #   
+        # )
       )
     )
   )
